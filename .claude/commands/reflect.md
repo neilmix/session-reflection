@@ -1,5 +1,5 @@
 ---
-description: Review session and recommend updates to CLAUDE.md, skills, and docs
+description: Review session and recommend updates to CLAUDE.md, skills, docs, and comments
 ---
 
 # Session Reflection
@@ -26,6 +26,7 @@ Review this session and identify learnings worth capturing. Focus on:
 | CLAUDE.md | `./CLAUDE.md` | Project conventions, gotchas, tool usage |
 | Skills | `./.claude/skills/` | Reusable workflows worth capturing |
 | Docs | `**.md` | Documentation gaps discovered |
+| Code | code files | Comments that should be added or updated |
 
 **Scoping rule:** If a learning relates to a global skill, recommend copying it to `.claude/skills/` first, then modifying the local copy.
 
