@@ -52,9 +52,10 @@ Present recommendations in two tiers:
 1. Review the session and make a list of corrections, discoveries, patterns, and decisions
 2. Apply the guiding principles strictly - when in doubt, leave it out
 3. Decide how best to apply each item - docs or skills
-4. Present recommendations in the format above
-5. **Wait for user approval** - do not make any changes yet
-6. After user responds, apply only the approved items
-7. Confirm what was updated
+4. Identify any documentation, comments, etc. that is out-of-date and should be updated or removed.
+5. Present recommendations in the format above
+6. **Wait for user approval** - do not make any changes yet
+7. After user responds, apply only the approved items
+8. Confirm what was updated
 
 If the session has no meaningful learnings, say so briefly and don't force recommendations.
