@@ -30,6 +30,11 @@ Review this session and identify learnings worth capturing. Focus on:
 
 **Scoping rule:** If a learning relates to a global skill, recommend copying it to `.claude/skills/` first, then modifying the local copy.
 
+Guidelines:
+- Only update CLAUDE.md with topics that effect the entire project. Avoid context bloat.
+- Prefer code comments for isolated topics. Explain why. Don't repeat what the code already says.
+- Use docs for procedures and architecture.
+
 ## Output Format
 
 Present recommendations in two tiers:
