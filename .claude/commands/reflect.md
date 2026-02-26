@@ -27,6 +27,7 @@ Review this session and identify learnings worth capturing. Focus on:
 | Skills | `./.claude/skills/` | Reusable workflows worth capturing |
 | Docs | `**.md` | Documentation gaps discovered |
 | Code | code files | Comments that should be added or updated |
+| Stale docs | `docs/NEEDS_UPDATE.md` | Review and action items logged during development |
 
 **Scoping rule:** If a learning relates to a global skill, recommend copying it to `.claude/skills/` first, then modifying the local copy.
 
@@ -45,22 +46,28 @@ Present recommendations in two tiers:
 1. [CLAUDE.md] <brief description of what to add/update>
 2. [skill] <brief description of skill to create/update>
 3. [doc] <brief description of doc to create/update>
+4. [cleanup] <file to remove>
+5. etc...
 
 ## Consider
 
 4. [CLAUDE.md] <lower confidence suggestion>
 5. [skill] <broader scope idea>
+6. etc...
+
 ```
 
 ## Instructions
 
 1. Review the session and make a list of corrections, discoveries, patterns, and decisions
-2. Apply the guiding principles strictly - when in doubt, leave it out
-3. Decide how best to apply each item - docs or skills
-4. Identify any documentation, comments, etc. that is out-of-date and should be updated or removed.
-5. Present recommendations in the format above
-6. **Wait for user approval** - do not make any changes yet
-7. After user responds, apply only the approved items
-8. Confirm what was updated
+2. Check for temporary artifacts (screenshots, debug output, generated files) and flag them for deletion.
+3. Apply the guiding principles strictly - when in doubt, leave it out
+4. Decide how best to apply each item - docs or skills
+5. Review `docs/NEEDS_UPDATE.md` if it exists — incorporate its items into your recommendations and clear the file after addressing them.
+6. Identify any documentation, comments, etc. that is out-of-date and should be updated or removed.
+7. Present recommendations in the format above
+8. **Wait for user approval** - do not make any changes yet
+9. After user responds, apply only the approved items
+10. Confirm what was updated
 
 If the session has no meaningful learnings, say so briefly and don't force recommendations.
